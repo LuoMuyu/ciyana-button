@@ -1,11 +1,8 @@
 const en_US = {
     info: {
-        title: "Aqua Button",
+        title: "Ciyana Button",
         info: "Information",
-        null: "Empty",
-        audioStaff: "Audio Clip: mchong111 CatCoffee",
-        toGithub: "Please participate in translation, add audio or make suggestions on Github:",
-        notOfficial: "This site is a fan work and is not associated with the hololive official."
+        null: "Empty"
     },
     action: {
         toggleNavbar: "Toggle navigation bar",

@@ -15,8 +15,11 @@
                 
                 <div class="collapse navbar-collapse" id="bs-navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg?sub_confirm=1" target="_blank"><img src="resources/youtube_social_icon_red.png" height="18"/></a></li>
-                        <li><a href="https://twitter.com/minatoaqua" target="_blank"><img src="resources/Twitter_Social_Icon_Circle_Color.png" height="18"/></a></li>
+                        <li><a href="https://space.bilibili.com/1926156228/" target="_blank" rel="nofollow"><img src="resources/bilibili_logo_x64.png" height="18"/></a></li>
+                        <li><a href="https://weibo.com/u/7544721964" target="_blank" rel="nofollow"><img src="resources/weibo_logo_x64.png" height="18"/></a></li>
+                        <li><a href="https://twitter.com/_Ciyana" target="_blank" rel="nofollow"><img src="resources/twitter_logo_x200.png" height="18"/></a></li>
+                        <li><a href="https://zh.moegirl.org.cn/%E5%B8%8C%E4%BA%9A%E5%A8%9CCiyana" target="_blank" rel="nofollow"><img src="resources/moegir_logo_x80.png" height="18"/></a></li>
+						<li><a href="https://afdian.net/@luomuyu" target="_blank" rel="nofollow"><img src="resources/afdian_logo_x80.png" height="18"/></a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
@@ -36,13 +39,9 @@
             <router-view></router-view>
         </div>
         <footer class="footer">
-            <div class="container-fluid footer-content">
-                <div class="pull-right">
-                    <div class="text-right"><a href="https://github.com/zyzsdy/aqua-button" target="_blank">{{$t("info.toGithub")}} <img src="https://img.shields.io/github/stars/zyzsdy/aqua-button.svg?style=social"/></a></div>
-                    <div class="text-right">{{$t("info.notOfficial")}}</div>
-                </div>
-                <div>{{$t("info.audioStaff")}}</div>
-                <div>Zyzsdy 2019-2020 <span style="color: rgba(0, 0, 0, 0.1)">Powered By Meowsound Idols</span></div>
+            <div class="container-fluid footer-content" style="text-align:center">
+                <div><a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">冀ICP备20002037号-2</a></div>
+				<div>Copyright © 2020 <a href="https://www.luomuyu.xyz" target="_blank" rel="nofollow">洛沐语.</a>All Rights Reserved.</div>
             </div>
         </footer>
   </div>
@@ -68,6 +67,9 @@ body{
 .text-right{
     text-align: right;
 }
+::-webkit-scrollbar{
+	display:none;
+}
 </style>
 
 <script>
@@ -87,7 +89,7 @@ class App extends Vue {
     }
     created(){
         // eslint-disable-next-line 
-        console.log("Produced by MoewSound Idols");
+        console.log("Produced by Luomuyu");
         this.$i18n.locale = localStorage.getItem("lang") || this.$i18n.locale;
     }
     chlang(v){
