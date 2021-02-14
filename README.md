@@ -1,14 +1,6 @@
-# Aqua button
+# 301 from www.ciyana.cn
 
-Aqua button [Click here to visit https://aquaminato.moe](https://aquaminato.moe)
-
-[![Build Status](https://travis-ci.org/zyzsdy/aqua-button.svg?branch=master)](https://travis-ci.org/zyzsdy/aqua-button)
-
-Related Links:
-
-* [Aqua Minato's Youtube channel](https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg)
-
-* [Aqua Minato's Twitter](https://twitter.com/minatoaqua)
+应要求完全开源并停止运营
 
 ## Contributing
 
