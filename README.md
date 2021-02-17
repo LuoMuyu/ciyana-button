@@ -1,4 +1,4 @@
-# 301 from button.ciyana.cn
+# 301 from [button.ciyana.cn](button.ciyana.cn)
 
 应要求完全开源并停止运营
 
